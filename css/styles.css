@@ -1,0 +1,201 @@
+/* the margin:0; in both body and h1 allow the div to the 
+top very top and both far edges of the webpage*/
+body {
+    margin: 0 0 0 0;
+    padding: 0px;
+    border-width: 0;
+    background-color: #567189;
+}
+
+p {
+    color:#FFD39A;
+    line-height: 2;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #FFD39A;
+    font-size: 60px;
+}
+
+h2 {
+    color: #FFD39A;
+    font-weight: normal;
+}
+ h3{
+    color:#FFD39A ;
+ }
+
+div {
+    background-color:  #567189;
+    
+    
+    /* padding is the amount of space you would like between 
+    the edges of your box and the content within your box, this 
+    can be adjusted for each side individually just like border. */
+    padding: 0px;
+    margin: 0 0 0 0;
+    text-align: center;
+    
+}
+
+hr {
+    width:25%; 
+    height:0px; 
+    color: black; 
+    width:15%; 
+    border-style: dotted none none; 
+    border-width: 15px; 
+    border-color: black;
+    margin: 110px auto 110px auto;
+}
+
+
+
+.footer-link{
+    margin: 0px 10px 0px 10px;
+    position: relative;
+    top: 10px;
+    color:#567189;
+}
+
+ /*i am using this class as an example on how borders work
+ it wont be used, within border width each set amount of pixels apply
+ to each of the 4 borders starting at the top in a clockwise manner. 
+ so if you would like to take a border out just put it at 0px and that side
+ will be erased*/
+.border {
+    border-width: 0px 10px 20px 30px;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #FFD39A;   
+}
+
+.shrink-image {
+    height: 150px;
+    width: 150px;
+    float:left;
+    margin-right: 40px;
+}
+
+.shrink-image-right {
+    height: 150px;
+    width: 150px;
+    float:right;
+    margin-left: 40px;
+}
+
+.top-container {
+    text-align: center;
+    height:fit-content;
+}
+ 
+.middle-container {
+background-color: #567189;
+}
+
+.bottom-container {
+background-color: #FFD39A;
+margin: 20px 0px 0px 0px;
+border-width: 0;
+position: relative;
+top: 20px;
+}
+
+.top-cloud {
+    position: relative;
+    left: 220px;
+    top: 100px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.cursive {
+    font-family: cursive;
+    margin-top: 70px;
+}
+
+.fantasy { 
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 150px auto 150px auto ;
+    text-align: left;
+}
+ 
+.underline-text {
+    text-decoration: underline;
+}
+
+.center-text {
+    text-align: center;
+}
+
+ /* here is sytax for a button from button generator.com and also 
+ code for when it is hovered over */
+
+ .btn {
+    -webkit-border-radius: 34;
+    -moz-border-radius: 34;
+    border-radius: 34px;
+    font-family: Arial;
+    color: #567189;
+    font-size: 20px;
+    background: #FFD39A;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px auto 10px auto;
+    
+  }
+  
+  .btn:hover {
+    background: #FFD39A;
+    color: #567189;
+  }
+
+.space-text{
+    width: 50%;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.get-in-touch {
+    width: 50%;
+    margin: 0px auto 50px auto;
+    text-align: center;
+
+}
+
+.teal-text {
+    color:#567189;
+}
+
+.header{
+    position: fixed;
+    margin: 0 0 0 0;
+    padding: 0px;
+   
+}
+
+.tan-text{
+    color: #FFD39A;
+}
+
+.nav-hover:hover {
+    color:#FFD39A
+}
+
+.nav-select:selection {
+    color: #FFD39A;
+}
